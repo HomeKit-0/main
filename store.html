@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 50px;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 16px;
+    }
+    h1 {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to the Store</h1>
+  <div id="store-items">
+    <button onclick="buyItem('Item 1', 100)">Buy Item 1 (100 points)</button>
+    <button onclick="buyItem('Item 2', 150)">Buy Item 2 (150 points)</button>
+  </div>
+  <p>Points: <span id="points">0</span></p>
+  <script src="script.js"></script>
+</body>
+</html>
